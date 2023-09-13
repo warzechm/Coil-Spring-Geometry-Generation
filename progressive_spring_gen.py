@@ -162,8 +162,8 @@ def gen_central_points_radius_control(parameters):
     central_curve_point_coor = np.zeros((fi.shape[0], 3))
 
     for i, val in enumerate(fi):
-        central_curve_point_coor[i, 0] = D * math.cos(val)
-        central_curve_point_coor[i, 1] = D * math.sin(val)
+        central_curve_point_coor[i, 0] = R * math.cos(val)
+        central_curve_point_coor[i, 1] = R * math.sin(val)
         if val <= x_A1/R:
             central_curve_point_coor[i, 2] = R * val * math.tan(delta[0])
             print(R * val * math.tan(delta[0]))
