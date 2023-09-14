@@ -481,52 +481,52 @@ def gen_Gmsh_sript(central_points):
     for i in range(line_counter - 1):
         file.write(str(i) + ', ')
     file.write(str(line_counter - 1) + '};\n')
-    file.write('Point(' + str(point_counter + 1) + ') = {' + str(p_3[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 1) + ') = {' + str(p_3[0] + D/2) + ', '
                + str(p_3[1]) + ', ' + str(p_3[2]) + '};\n')
     point_circle_1 = point_counter + 1
-    file.write('Point(' + str(point_counter + 2) + ') = {' + str(p_4[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 2) + ') = {' + str(p_4[0] + D/2) + ', '
                + str(p_4[1]) + ', ' + str(p_4[2]) + '};\n')
     point_circle_2 = point_counter + 2
-    file.write('Point(' + str(point_counter + 3) + ') = {' + str(p_5[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 3) + ') = {' + str(p_5[0] + D/2) + ', '
                + str(p_5[1]) + ', ' + str(p_5[2]) + '};\n')
     point_circle_3 = point_counter + 3
-    file.write('Point(' + str(point_counter + 4) + ') = {' + str(p_6[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 4) + ') = {' + str(p_6[0] + D/2) + ', '
                + str(p_6[1]) + ', ' + str(p_6[2]) + '};\n')
     point_circle_4 = point_counter + 4
-    file.write('Point(' + str(point_counter + 5) + ') = {' + str(p_7[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 5) + ') = {' + str(p_7[0] + D/2) + ', '
                + str(p_7[1]) + ', ' + str(p_7[2]) + '};\n')
     point_circle_5 = point_counter + 5
-    file.write('Point(' + str(point_counter + 6) + ') = {' + str(p_8[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 6) + ') = {' + str(p_8[0] + D/2) + ', '
                + str(p_8[1]) + ', ' + str(p_8[2]) + '};\n')
     point_circle_6 = point_counter + 6
-    file.write('Point(' + str(point_counter + 7) + ') = {' + str(p_9[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 7) + ') = {' + str(p_9[0] + D/2) + ', '
                + str(p_9[1]) + ', ' + str(p_9[2]) + '};\n')
     point_circle_7 = point_counter + 7
-    file.write('Point(' + str(point_counter + 8) + ') = {' + str(p_10[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 8) + ') = {' + str(p_10[0] + D/2) + ', '
                + str(p_10[1]) + ', ' + str(p_10[2]) + '};\n')
     point_circle_8 = point_counter + 8
-    file.write('Point(' + str(point_counter + 9) + ') = {' + str(p_11[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 9) + ') = {' + str(p_11[0] + D/2) + ', '
                + str(p_11[1]) + ', ' + str(p_11[2]) + '};\n')
     point_circle_9 = point_counter + 9
-    file.write('Point(' + str(point_counter + 10) + ') = {' + str(p_12[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 10) + ') = {' + str(p_12[0] + D/2) + ', '
                + str(p_12[1]) + ', ' + str(p_12[2]) + '};\n')
     point_circle_10 = point_counter + 10
-    file.write('Point(' + str(point_counter + 11) + ') = {' + str(p_13[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 11) + ') = {' + str(p_13[0] + D/2) + ', '
                + str(p_13[1]) + ', ' + str(p_13[2]) + '};\n')
     point_circle_11 = point_counter + 11
-    file.write('Point(' + str(point_counter + 12) + ') = {' + str(p_14[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 12) + ') = {' + str(p_14[0] + D/2) + ', '
                + str(p_14[1]) + ', ' + str(p_14[2]) + '};\n')
     point_circle_12 = point_counter + 12
-    file.write('Point(' + str(point_counter + 13) + ') = {' + str(p_15[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 13) + ') = {' + str(p_15[0] + D/2) + ', '
                + str(p_15[1]) + ', ' + str(p_15[2]) + '};\n')
     point_circle_13 = point_counter + 13
-    file.write('Point(' + str(point_counter + 14) + ') = {' + str(p_16[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 14) + ') = {' + str(p_16[0] + D/2) + ', '
                + str(p_16[1]) + ', ' + str(p_16[2]) + '};\n')
     point_circle_14 = point_counter + 14
-    file.write('Point(' + str(point_counter + 15) + ') = {' + str(p_17[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 15) + ') = {' + str(p_17[0] + D/2) + ', '
                + str(p_17[1]) + ', ' + str(p_17[2]) + '};\n')
     point_circle_15 = point_counter + 15
-    file.write('Point(' + str(point_counter + 16) + ') = {' + str(p_18[0] + D) + ', '
+    file.write('Point(' + str(point_counter + 16) + ') = {' + str(p_18[0] + D/2) + ', '
                + str(p_18[1]) + ', ' + str(p_18[2]) + '};\n')
     point_circle_16 = point_counter + 16
     point_counter += 17
